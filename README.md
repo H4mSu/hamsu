@@ -19,7 +19,7 @@ __
         - 두번누르면 안되는듯?
         - 하이폰 스페이스바 생활화 할것
 
-2.ㅇㅇㅇ    
+    
 
 # 깃 허브 업로드 순서
 1.수정후 저장 M 생성
@@ -45,13 +45,32 @@ git push origin master
 ```
 
 # 깃 다운로드 
-1. 깃 클론 클릭
+1.깃 클론 클릭<br>
 2.깃 클론 명령어 작성
 ```
-
+git clone https://github.com/Jgone2/markdown.git
 ```
 
 # html 한번에 나오는 커맨드
 ```
 ! + tab 사용하면 head, body 가 바로 나온다
+```
+
+# 깃 리모트 변경
+기존 리포지토리 깔끔하게 pull /push
+```
+git pull
+git add.
+git commit -m "clean push"
+git push
+```
+
+기존 리포지토리 remote 제거S
+```
+git remote remove origin
+```
+
+새 리포지토리 remote 추가
+```
+git remote add origin https://~~~
 ```
